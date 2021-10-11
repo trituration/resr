@@ -1,4 +1,4 @@
-# Restriction Enzyme Sites Removing (RESR)
+# Restriction Enzyme Sites Removing (RESR) also known as Restriction_Sites_Hider_3000 (t.me/@restriction_sites_hider_3000_BOT)
 
 ## Introduction
 This program for this...
