@@ -45,11 +45,7 @@ Restriction sites removes in several steps:
 3. Create new fasta file with hided restriction sites. 
 
 
-Программу нужно запускать из рабочей директории и рядом с исполняемым файлом должен находиться restriction_enzymes_database.tsv
-
-Удаление сайтов рестрикции выполняется в несколько этапов: поиск всех сайтов, выбор пользователем сайтов на удаление, удаление сайтов  
-
-### Prepatory steps
+### Preparatory steps
 
 1. Chose genetic code table
 This programm support different types of genetic code tables. All possible tables user can see by following command:
