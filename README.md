@@ -161,3 +161,36 @@ In this directoty just run:
 chmod + x ./example.sh
 ./example.sh
 ```
+
+## Below described instruction to Teleram bot (http://t.me/restriction_sites_hider_3000_BOT)
+
+This bot hiding restriction sites by users choice. Based on restriction_sites_hider.py (https://github.com/trituration/rsh). 
+
+
+1. If you want to start, just send /start or press the start link.
+
+![image](pics/1st_screen.png)
+
+2. Bot will ask you to choose the codon table which supposed to be used
+
+![image](pics/2nd_screen.png)
+
+3. Upload your sequence txt file as plain text or FASTA format. Bot support only DNA fasta with 1 sequence. MultiFasta will work in an unforeseen way.
+
+![image](pics/3rd_screen.png)
+
+4. Enter site of restriction by typing it as message. You could use upper and lower case. 
+
+![image](pics/4th_screen.png)
+
+5. Choose site or sites which you want to save. 
+
+![image](pics/5th_screen.png)
+
+6. Choose open reading frame. 
+
+![image](pics/6th_screen.png)
+
+7. Your result is ready, you are wonderful!
+
+![image](pics/7th_screen.png)

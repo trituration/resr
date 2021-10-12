@@ -1,1 +1,1 @@
-BOT_TOKEN = "" # <- use own token
+BOT_TOKEN = "" # <- use your own token
