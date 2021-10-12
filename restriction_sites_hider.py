@@ -2,6 +2,7 @@ import re
 import sys
 import argparse
 import random
+import os.path
 from operator import itemgetter
 from Bio.Seq import Seq
 from Bio.Data import CodonTable
@@ -329,7 +330,9 @@ def parse_args():
 
 def main():
     args = parse_args()
-    db_path = "./restriction_enzymes_database.tsv"
+    this_dir, this_filename = os.path.split(__file__)
+    db_path = os.path.join(this_dir, "db", "restriction_enzymes_database.tsv")
+
     if args.subparser_name == 'codon_tables':
         keys = []
         for key, value in available_codon_tables.items():

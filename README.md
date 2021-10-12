@@ -12,8 +12,7 @@ PYTHON:
 ## Installation
 
 ```
-Пока нет. Если что удалите и напишите, что просто кллонирование и запуск из той же директории куда клонировали
-git clone https://github.com/trituration/resr.git  
+git clone https://github.com/trituration/rsh.git  
 cd resr/  
 pip install -e .  
 ```
@@ -22,7 +21,7 @@ pip install -e .
 The command `resr.py -h` return:
 
 ```
-usage: program.py [-h]
+usage: restriction_sites_hider.py.py [-h]
                   {codon_tables,enzymes,find_known_sites,find_by_pattern,remove_sites,remove_by_pattern}
                   ...
 
@@ -52,7 +51,7 @@ Restriction sites removes in several steps:
 This programm support different types of genetic code tables. All possible tables user can see by following command:
 
 ```
-python program.py codon_tables
+restriction_sites_hider.py codon_tables
 ```
 
 This command return this table:
@@ -88,7 +87,7 @@ Standard genetic code is set by defeult. If user want to change it to anyone els
 2. User should choose restriction site or restriction enzyme which sites he wants to hide. In this programm used database Rebase v.110. Obtain list of known restriction enzymes by this command:
 
 ```
-python program.py enzymes
+restriction_sites_hider.py enzymes
 ```
 ### Restriction sites finding
 
@@ -96,14 +95,14 @@ For restriction sites finding it's possible to use one of the following commands
 If user knew restriction enzyme name he/she use `find_known_sites` command
 For example:
 ```
-python program.py find_known_sites ./NC_005816.fna YenBI test.txt
+restriction_sites_hider.py find_known_sites ./NC_005816.fna YenBI test.txt
 ```
 where `./NC_005816.fna` - original fasta, `YenBI` - enzyme's name and `test.txt` - output file
 
 If user don't know restriction enzyme name or it's not present in database - use `find_by_pattern`
 For example:
 ```
-python program.py find_by_pattern ./NC_005816.fna AGCCAG test.txt
+restriction_sites_hider.py find_by_pattern ./NC_005816.fna AGCCAG test.txt
 ```
 where `./NC_005816.fna` - original fasta, `AGCCAG` - restriction site and `test.txt` - output file
 
@@ -137,7 +136,7 @@ Choose same command as you used for Restriction sites finding
 
 For example:
 ```
-python program.py remove_by_pattern ./NC_005816.fna test.txt AGCCAG new_fasta.fa
+restriction_sites_hider.py remove_by_pattern ./NC_005816.fna test.txt AGCCAG new_fasta.fa
 ```
 where 
 `./NC_005816.fna` is the same fasta file that used for command `python program.py find_by_pattern`
@@ -147,6 +146,6 @@ where
 
 Another example:
 ```
-python program.py remove_known_sites ./NC_005816.fna test.txt YenBI new_fasta.fa
+restriction_sites_hider.py remove_known_sites ./NC_005816.fna test.txt YenBI new_fasta.fa
 ```
 
