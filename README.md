@@ -17,7 +17,10 @@ cd rsh/
 pip install -e .  
 ```
 
+ The source code of the telegram bot is located in the `bot` directory. But it not used for script.
+
 ## Usage
+
 The command `resr.py -h` return:
 
 ```
