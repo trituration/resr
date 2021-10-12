@@ -9,12 +9,12 @@ install_requires = ['setuptools>=18.0', 'biopython']
 
 
 setup(
-    name='resr',
+    name='rsh',
     version='0.0.1',
     description='calculate enrichment of matrix in data',
     author='Anton Tsukanov, Konstantin Ivanov, Georgii Ozhegov',
     author_email='ubercomrade@gmail.com',
-    url='https://github.com/trituration/resr',
+    url='https://github.com/trituration/rsh',
     scripts=['restriction_sites_hider.py',],
     package_data={'rsh': ['db/restriction_enzymes_database.tsv']},
     classifiers=[
