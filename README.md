@@ -149,3 +149,12 @@ Another example:
 restriction_sites_hider.py remove_known_sites ./NC_005816.fna test.txt YenBI new_fasta.fa
 ```
 
+### Example run
+
+Example data (fasta file of plasmid) and bash script avalibale in `example` directory
+In this directoty just run:
+
+```
+chmod + x ./example.sh
+./example.sh
+```
