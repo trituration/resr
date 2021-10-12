@@ -129,7 +129,7 @@ where
 
 If you don't want to hide some of sites just delete string that conatin it from this file. All remaining sites will be hided.
 
-### sites hiding
+### Sites hiding
 
 For hiding restriction sites usr should use one of the following commands: `remove_known_sites` or `remove_by_pattern`. 
 Choose same command as you used for Restriction sites finding
