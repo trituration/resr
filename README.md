@@ -1,8 +1,11 @@
 # Restriction_Sites_Hider.py (RSH) also known as Restriction_Sites_Hider_3000 (http://t.me/restriction_sites_hider_3000_BOT)
 
-## Introduction
+## Our team
 
-мұнда не жазуға болады?
+Tsukanov Anton ubercomrade@gmail.com Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences
+Kurgina Tatiana t.a.kurgina@gmail.com Institute of chemical biology and fundamental medicine  Branch of the Russian Academy of Sciences
+Ivanov Konstantin kos.ivanoff2010@yandex.ru University of Eastern Finland
+Ozhegov Georgii georgii_provisor@mail.ru Kazan Federal University
 
 ## Requirements
 
