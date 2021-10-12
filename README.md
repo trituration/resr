@@ -1,5 +1,9 @@
 # Restriction_Sites_Hider.py (RSH) also known as Restriction_Sites_Hider_3000 (http://t.me/restriction_sites_hider_3000_BOT)
 
+## Instruction
+
+README.md also exist in PDF format -> [**README.pdf**](https://github.com/trituration/README.pdf)
+
 ## Our team
 
 * Anton Tsukanov ubercomrade@gmail.com Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences
