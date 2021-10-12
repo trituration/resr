@@ -13,7 +13,7 @@ PYTHON:
 
 ```
 git clone https://github.com/trituration/rsh.git  
-cd resr/  
+cd rsh/  
 pip install -e .  
 ```
 
