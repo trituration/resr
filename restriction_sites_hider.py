@@ -258,7 +258,6 @@ def breake_choosen_sites(seq, pattern, annotation, codone_table):
             mutated_seq = insert_mutated_site_in_seq(mutated_seq,
                                                      mutated_site,
                                                      start, end)
-            print(mutated_seq)
     return mutated_seq
 
 
