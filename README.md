@@ -2,10 +2,10 @@
 
 ## Our team
 
-Tsukanov Anton ubercomrade@gmail.com Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences
-Kurgina Tatiana t.a.kurgina@gmail.com Institute of chemical biology and fundamental medicine  Branch of the Russian Academy of Sciences
-Ivanov Konstantin kos.ivanoff2010@yandex.ru University of Eastern Finland
-Ozhegov Georgii georgii_provisor@mail.ru Kazan Federal University
+* Anton Tsukanov ubercomrade@gmail.com Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences
+* Tatiana Kurgina t.a.kurgina@gmail.com Institute of chemical biology and fundamental medicine  Branch of the Russian Academy of Sciences
+* Konstantin Ivanov kos.ivanoff2010@yandex.ru University of Eastern Finland
+* Georgii Ozhegov georgii_provisor@mail.ru Kazan Federal University
 
 ## Requirements
 
