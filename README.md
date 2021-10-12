@@ -1,4 +1,4 @@
-# Restriction Enzyme Sites Removing (RESR) also known as Restriction_Sites_Hider_3000 (http://t.me/restriction_sites_hider_3000_BOT)
+# Restriction_Sites_Hider.py (RSH) also known as Restriction_Sites_Hider_3000 (http://t.me/restriction_sites_hider_3000_BOT)
 
 ## Introduction
 
@@ -21,7 +21,7 @@ pip install -e .
 The command `resr.py -h` return:
 
 ```
-usage: restriction_sites_hider.py.py [-h]
+usage: restriction_sites_hider.py [-h]
                   {codon_tables,enzymes,find_known_sites,find_by_pattern,remove_sites,remove_by_pattern}
                   ...
 
@@ -32,7 +32,7 @@ positional arguments:
     enzymes             Return avalibale restriction enzymes in STDOUT
     find_known_sites    Find sites in fasta file for given restriction enzyme
     find_by_pattern     Find sites in fasta file for given restriction enzyme
-    remove_sites        Return modified FASTA
+    remove_known_sites  Return modified FASTA
     remove_by_pattern   Return modified FASTA
 
 optional arguments:
