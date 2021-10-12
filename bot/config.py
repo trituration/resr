@@ -1,1 +1,1 @@
-BOT_TOKEN = "1920450208:AAFE7tyLTLMu6OfJ3lKWE6hUDTyBOb8AcGg"
+BOT_TOKEN = "" # <- use own token

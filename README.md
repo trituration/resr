@@ -21,7 +21,7 @@ pip install -e .
 
 ## Usage
 
-The command `resr.py -h` return:
+The command `restriction_sites_hider.py -h` return:
 
 ```
 usage: restriction_sites_hider.py [-h]
